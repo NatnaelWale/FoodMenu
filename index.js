@@ -53,7 +53,7 @@ let menu = {
     };
 
     function populateDrinksData() {
-        console.log("Populate Drinks")
+        // console.log("Populate Drinks")
         let drinksLength = menu.drinks.length;
         for (let i = 0; i < drinksLength; i++) {
             let foodDrinks = menu.drinks[i];
@@ -65,7 +65,7 @@ let menu = {
     };
 
     function populateEntreesData() {
-        console.log("Populate Entrees")
+        // console.log("Populate Entrees")
         let entreesLength = menu.entrees.length;
         for (let i = 0; i < entreesLength; i++) {
             let foodEntrees = menu.entrees[i];
@@ -77,7 +77,7 @@ let menu = {
     }
 
     function populateDessertsData() {
-        console.log("Populate Desserts")
+        // console.log("Populate Desserts")
         let dessertsLength = menu.desserts.length;
         for (let i = 0; i < dessertsLength; i++) {
             let foodDesserts = menu.desserts[i];
